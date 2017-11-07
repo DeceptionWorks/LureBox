@@ -1,0 +1,15 @@
+-- show the logs about users accessing the Salary table
+ select event_timestamp, action_name, system_privilege_used, object_name  
+  from unified_audit_trail  
+  where object_name = 'MONITOR_SALARY'  
+  or object_name = 'SALARY'  
+  order by event_timestamp;  
+  
+select event_timestamp, os_username, userhost, terminal, dbusername,client_program_name, action_name, sql_text, object_name
+  from unified_audit_trail
+  where unified_audit_policies='MONITOR_SALARY'
+  order by event_timestamp;  
+  
+select event_timestamp, dbusername,object_name,action_name from unified_audit_trail
+  where unified_audit_policies='MONITOR_SALARY' and event_timestamp > trunc(sysdate)
+  order by event_timestamp;

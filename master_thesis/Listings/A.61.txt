@@ -1,0 +1,19 @@
+# start the MongoDB shell
+mongo
+# switch to the fhstp database
+use fhstp
+# create Salary collection
+db.createCollection("Salary")
+# insert data into the collection
+db.salary.insert(
+   [
+     { EmployeeId: 1, Salary: 2000, FromDate: ISODate("2015-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 2, Salary: 5000, FromDate: ISODate("2016-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 3, Salary: 1500, FromDate: ISODate("2016-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 4, Salary: 2000, FromDate: ISODate("2015-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 5, Salary: 3000, FromDate: ISODate("2014-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 6, Salary: 1000, FromDate: ISODate("2016-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 7, Salary: 1000, FromDate: ISODate("2016-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") },
+     { EmployeeId: 8, Salary: 2000, FromDate: ISODate("2016-12-01T00:00:00Z"), ToDate: ISODate("2099-12-12T00:00:00Z") }
+   ]
+)

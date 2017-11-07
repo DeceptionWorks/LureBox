@@ -1,0 +1,39 @@
+# install necessary dependencies
+apt-get install virtualenv python-blist python-setuptools python-dev build-essential libssl-dev libffi-dev
+# download the program
+git clone https://github.com/Yelp/elastalert.git
+# create a virtualenv environment in /opt
+virtualenv /opt/elastalert
+# activate virtualenv environment
+source /opt/elastalert/bin/activate
+# change into the elastalert directory
+cd elastalert
+# install all Python dependencies
+(elastalert)root@elk-stack:~/elastalert pip install -r requirements.txt
+(elastalert)root@elk-stack:~/elastalert# pip install requests==2.2.1
+(elastalert)root@elk-stack:~/elastalert# pip install setuptools==34.4.1
+# install ElastAlert
+(elastalert)root@elk-stack:~/elastalert# python setup.py install
+# create necessary index for Elasticsearch
+(elastalert)root@elk-stack:~/elastalert# elastalert-create-index 
+Enter Elasticsearch host: 127.0.0.1
+Enter Elasticsearch port: 9200
+Use SSL? t/f: f
+New index name? (Default elastalert_status) 
+Name of existing index to copy? (Default None) 
+New index elastalert_status created
+Done!
+
+# add a system user for ElastAlert
+useradd -r elastalert
+# create a directory for storing the config file
+mkdir /etc/elastalert
+# copy the example config file to /etc/elastalert
+cp elastalert/config.yaml.example /etc/elastalert/config.yaml
+# create a directory for storing rules 
+mkdir /etc/elastalert/rules
+# set the correct file permissions
+chown -R elastalert:elastalert /etc/elastalert/
+
+# the following permission can be set after the file was created
+chmod 400 smtp_auth_file.yaml

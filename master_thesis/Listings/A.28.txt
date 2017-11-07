@@ -1,0 +1,2 @@
+mkdir -p /usr/share/logstash/data/oracle
+chown logstash:logstash /usr/share/logstash/data/oracle

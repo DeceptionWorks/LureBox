@@ -1,0 +1,295 @@
+[1] 	T. Neaves. Have I been pwned? Pwned websites. [Accessed May 31, 2017]. [Online]. 
+		Available: https://haveibeenpwned.com/PwnedWebsites
+[2] 	B. Krebs. As Scope of 2012 Breach Expands, LinkedIn to Again Reset Passwords for Some Users. [Accessed May 31, 2017]. [Online]. 
+		Available: http://krebsonsecurity.com/2016/05/as-scope-of-2012-breach-expands-linkedin-to-again-reset-passwords-for-some-users/
+[3] 	C. Scott. Protecting Our Members | Official LinkedIn Blog. [Accessed May 31, 2017]. [Online].
+		Available: https://blog.linkedin.com/2016/05/18/protecting-our-members
+[4] 	M. Hosenball. NSA chief says Snowden leaked up to 200,000 secret documents. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.reuters.com/article/us-usa-security-nsa-idUSBRE9AD19B20131114
+[5] 	P. Szoldra. A timeline of Edward Snowden leaks – Business Insider Deutschland. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.businessinsider.de/snowden-leaks-timeline-2016-9?r=US&IR=T
+[6] 	Trend Micro Incorporated. Ransomware – Definition. [Accessed May 31, 2017]. [Online].
+		Available: https://www.trendmicro.com/vinfo/us/security/definition/ransomware
+[7] 	LegalArchiver.org. HIPAA. Health Insurance Portability and Accountability Act of 1996. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.legalarchiver.org/hipaa.htm
+[8] 	PCI Security Standards Council. Payment Card Industry (PCI) Datensicherheitsstandard. [Accessed May 31, 2017]. [Online]. 
+		Available: https://de.pcisecuritystandards.org/_onelink_/pcisecurity/en2de/minisite/en/docs/PCI_DSS_v3.pdf
+[9] 	LegalArchiver.org. The Sarbanes-Oxley Act 2002. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.legalarchiver.org/soa.htm
+[10] 	S. Moore. Gartner Says Worldwide Information Security Spending Will Grow 7.9 Percent to Reach $81.6 Billion in 2016. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.gartner.com/newsroom/id/3404817
+[11] 	Europäische Union. Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016. [Accessed May 31, 2017]. [Online]. 
+		Available: http://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32016R0679&from=de
+[12] 	L. Spitzner. Honeytokens: The Other Honeypot. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.symantec.com/connect/articles/honeytokens-other-honeypot
+[13] 	A. Liska, Building an Intelligence-Led Security Program. Syngress, 2014.
+[14] 	Department of Homeland Security. Combating the Insider Threat. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.us-cert.gov/sites/default/files/publications/Combating%20the%20Insider%20Threat_0.pdf
+[15] 	M. D. Waters, “Identifying and Preventing Insider Threats,” Master’s thesis, Eastern Kentucky University, 2016.
+[16] 	T. Werner and E. Reusch. Sondervorlesung „Netz-Sicherheit“: Honeypots – Elektronische Köder im Internet. [Accessed May 31, 2017]. [Online]. 
+		Available: https://net.cs.uni-bonn.de/fileadmin/events/Special/BSI/2006-11-07_Sondervorlesung_Netzsicherheit_publication.pdf
+[17] 	J. Strand and P. Asadoorian and E. Robishand and B. Donnelly, Offensive Countermeasures: The Art of Active Defense. CreateSpace Independent Publishing Platform, 2013.
+[18] 	L. Spitzner, “Honeypots: Catching the Insider Threat,” in Computer Security Applications Conference, 2003. Proceedings. 19th Annual. IEEE, 2003, pp. 170–179.
+[19] 	N. Provos. Honeypot Background. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.honeyd.org/background.php
+[20] 	dionaea. Welcome to dionaea’s documentation! [Accessed May 31, 2017]. [Online]. 
+		Available: https://dionaea.readthedocs.io/en/latest/
+[21] 	N. Provos. Developments of the Honeyd Virtual Honeypot. [Accessed May 31, 2017]. [Online].
+		Available: http://www.honeyd.org/
+[22] 	MushMush Foundation. mushorg/conpot: ICS/SCADA honeypot. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/mushorg/conpot
+[23] 	J. Nazario. Awesome Honeypots. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/paralax/awesome-honeypots
+[24] 	M. Milton. Honeytokens: The State of the Art. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.amazon.com/Honeytokens-State-Art-Mark-Milton-ebook/dp/B00BKYRAE4
+[25] 	P. Sokol and M. Husak and F. Lipták, “Deploying Honeypots and Honeynets: Issue of Privacy,” in 2015 10th International Conference on Availability, Reliability and Security, Aug 2015, pp. 397–403.
+[26] 	SecurityFocus. SecurityFocus. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.securityfocus.com/archive/119
+[27] 	R. Petrunić, “Honeytokens as active defense,” in 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015, pp. 1313–1317.
+[28] 	A. Shabtai and M. Bercovitch and L. Rokach and Y. Gal and Y. Elovici and E. Shmueli, “Behavioral Study of Users When Interacting with Active Honeytokens,” ACM Trans. Inf. Syst. Secur., vol. 18, no. 3, pp. 9:1–9:21, feb 2016.
+[29] 	K. Padayachee, “Aspectizing Honeytokens to Contain the Insider Threat,” IET Information Security, vol. 9, no. 4, pp. 240–247, 2014.
+[30] 	T. Holt, The Deceivers: Allied Military Deception in the Second World War. Simon and Schuster, 2010.
+[31] 	C. Stoll, The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage. Simon and Schuster, 2005.
+[32] 	UK Essays. Advantages And Disadvantages Involved In Honeytokens Information Technology Essay. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.ukessays.com/essays/information-technology/advantages-and-disadvantages-involved-in-honeytokens-information-technology-essay.php
+[33] 	B. Bowen and S. Hershkop and A. Keromytis and S. J. Stolfo, “Baiting Inside Attackers Using Decoy Documents,” in International Conference on Security and Privacy in Communication Systems. Springer, 2009, pp. 51–70.
+[34] 	A. Shabtai and Y. Elovici and L. Rokach, A survey of data leakage detection and prevention solutions. Springer Science & Business Media, 2012.
+[35] 	M. Bercovitch and M. Renford and L. Hasson and A. Shabtai and L. Rokach and Y. Elovici, “HoneyGen: an Automated Honeytokens Generator,” in Proceedings of 2011 IEEE International Conference on Intelligence and Security Informatics, July 2011, pp. 131–136.
+[36] 	Black Hills Information Security. ADHD – Black Hills Information Security. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.blackhillsinfosec.com/?page_id=4419
+[37] 	——. ADHD Tools Usage Document. [Accessed May 31, 2017]. [Online]. 
+		Available: https://adhdproject.github.io/
+[38] 	A. Ka. Honeybits. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/0x4D31/honeybits
+[39] 	Thinkst Canary. Canarytokens by Thinkst. [Accessed May 31, 2017]. [Online]. 
+		Available: http://canarytokens.org/
+[40] 	——. Canarytokens helps track activity and actions on your network. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/thinkst/canarytokens
+[41] 	——. Canarytokens.org – Quick, Free, Detection for the Masses. [Accessed May 31, 2017]. [Online]. 
+		Available: http://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html
+[42] 	SecureWorks. secureworks/dcept: A tool for deploying and detecting use of Active Directory honeytokens. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/secureworks/dcept
+[43] 	——. DCEPT: An Open-Source Honeytoken Tripwire. [Accessed May 31, 2017]. [Online].
+		Available: https://www.secureworks.com/blog/dcept
+[44] 	O. Zohar and A. Barbalat and R. Elharar, “Applying Deception Mechanisms for Detecting Sophisticated Cyber Attacks,” TopSpin, Tech. Rep., 2016.
+[45] 	J. Yuill and M. Zappe and D. Denning and F. Feer, “Honeyfiles: Deceptive Files for Intrusion Detection,” in Proceedings from the Fifth Annual IEEE SMC Information Assurance Workshop, 2004., June 2004, pp. 116–122.
+[46] 	N. Virvilis and B. Vanautgaerden and O. S. Serrano, “Changing the game: The art of deceiving sophisticated attackers,” in 2014 6th International Conference On Cyber Conflict (CyCon 2014), June 2014, pp. 87–97.
+[47] 	T. Neaves. Honey Tokens, The Universe and Everything. [Accessed May 31, 2017]. [Online]. 
+		Available: https://web.archive.org/web/20090220062427/http://www.tomneaves.co.uk/2006/07/honey-tokens-the-universe-and-everything.html
+[48] 	A. Čenys and D. Rainys and L. Radvilavicius and N. Goranin, “Database Level Honeytoken Modules for Active DBMS Protection,” in Advances in Information Systems Development. Springer, 2006, pp. 449–457.
+[49] 	H. AbdelallahElhadjo and H. M. Khelalfa and H. M. Kortebi, “An experimental sniffer detector: SnifferWall,” Atelier SEcurité des Communications sur Internet (SECI’02) Hôtel El Mechtel, pp. 69–80, 2002.
+[50] 	S. V. Reddy and K. S. Ramani and K. Rijutha and S. M. Ali and C. P. Reddy, “Wireless hacking – a WiFi hack by cracking WEP,” in 2010 2nd International Conference on Education Technology and Computer, vol. 1, June 2010, pp. V1–189–V1–193.
+[51] 	J. Cossu and H. ElAarag, “Malware Detection Inspired by the Human Immune System and Making Use of Honeytokens,” in Proceedings of the 18th Symposium on Communications & Networking, ser. CNS ’15. Society for Computer Simulation International, 2015, pp. 37–43.
+[52] 	A. Juels and R. L. Rivest, “Honeywords: Making password-cracking detectable,” in Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security. ACM, 2013, pp. 145–160.
+[53] 	M. Rouse. What is security information and event management (SIEM)? [Accessed May 31, 2017]. [Online]. 
+		Available: http://searchsecurity.techtarget.com/definition/security-information-and-event-management-SIEM
+[54] 	Splunk Inc. Operational Intelligence, Log Management, Application Management, Enterprise Security and Compliance | Splunk. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.splunk.com/
+[55] 	Hewlett Packard Enterprise Development LP. SIEM, Enterprise Security Information Event Management Solutions | Hewlett Packard Enterprise. [Accessed May 31, 2017]. [Online].
+		Available: https://saas.hpe.com/en-us/software/siem-security-information-event-management
+[56] 	International Business Machines Corp. IBM Security QRadar SIEM. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www-03.ibm.com/software/products/en/qradar-siem
+[57] 	Elasticsearch. Overview | Filebeat Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/beats/filebeat/5.3/filebeat-overview.html
+[58] 	——. Logstash Introduction | Logstash Reference [5.3]. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/logstash/5.3/introduction.html
+[59] 	——. Getting Started | Elasticsearch Reference [5.3]. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/elasticsearch/reference/5.3/getting-started.html
+[60] 	——. Introduction | Kibana User Guide [5.3]. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/kibana/5.3/introduction.html
+[61] 	Yelp Inc. Yelp/elastalert: Easy & Flexible Alerting With ElasticSearch. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/Yelp/elastalert
+[62] 	L. Rocha. Chinook Database. [Accessed May 31, 2017]. [Online]. 
+		Available: https://chinookdatabase.codeplex.com/
+[63] 	——. Chinook Schema. [Accessed May 31, 2017]. [Online]. 
+		Available: https://chinookdatabase.codeplex.com/wikipage?title=Chinook_Schema&referringTitle=Documentation
+[64] 	E. F. Codd, “A Relational Model of Data for Large Shared Data Banks,” Commun. ACM, vol. 13, no. 6, pp. 377–387, jun 1970.
+[65] 	C. Birgen, “SQL vs. NoSQL,” Norwegian University of Science and Technology, Tech. Rep., 2014.
+[66] 	P. Näsholm, “Extracting Data from NoSQL Databases – A Step towards Interactive Visual Analysis of NoSQL Data,” Master’s thesis, Chalmers University of Technology, 2012.
+[67] 	Wikipedia. Begriffe relationaler Datenbanken – Relationale Datenbank. [Accessed May 31, 2017]. [Online]. 
+		Available: https://de.wikipedia.org/wiki/Relationale_Datenbank#/media/File:Begriffe_relationaler_Datenbanken.svg
+[68] 	C. Strauch. NoSQL Databases. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.christof-strauch.de/nosqldbs.pdf
+[69] 	W. da Rocha Franca, MongoDB Data Modeling. Packt Publishing, 2015.
+[70] 	Oracle Corporation. Database Security Guide – Introduction to Auditing. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/database/121/DBSEG/auditing.htm#DBSEG1023
+[71] 	K. Simmons and S. Carstarphen, Pro SQL Server 2012 Administration. Apress, 2012.
+[72] 	D. Fabbri and R. Ramamurthy and R. Kaushik, “SELECT triggers for data auditing,” in 2013 IEEE 29th International Conference on Data Engineering (ICDE), April 2013, pp. 1141–1152.
+[73] 	Oracle Corporation. Oracle VM VirtualBox. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.virtualbox.org/
+[74] 	——. Chapter 6. Virtual networking. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.virtualbox.org/manual/ch06.html#network_hostonly
+[75] 	Agendaless Consulting and Contributors. Supervisor 3.3.1 documentation. [Accessed May 31, 2017]. [Online]. 
+		Available: http://supervisord.org/introduction.html
+[76] 	Elasticsearch. Repositories for APT and YUM | Filebeat Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/beats/filebeat/5.3/setup-repositories.html
+[77] 	——. Basic Concepts | Elasticsearch Reference [5.3]. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/elasticsearch/reference/5.3/_basic_concepts.html
+[78] 	L. Menezes. lmenezes/cerebro. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/lmenezes/cerebro
+[79] 	Elasticsearch. Stashing Your First Event | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/first-event.html
+[80] 	——. Installing Logstash | Logstash Reference [5.3]] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/installing-logstash.html
+[81] 	——. How Logstash Works | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/pipeline.html
+[82] 	——. Input plugins | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/logstash/5.3/input-plugins.html
+[83] 	——. Filter plugins | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/logstash/5.3/filter-plugins.html
+[84] 	——. csv | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-csv.html
+[85] 	——. date | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-date.html
+[86] 	——. drop | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-drop.html
+[87] 	——. grok | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-grok.html
+[88] 	——. json | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-json.html
+[89] 	——. mutate | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-mutate.html
+[90] 	——. Logstash Configuration Examples | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/config-examples.html
+[91] 	——. Running Logstash from the Command Line | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/running-logstash-command-line.html
+[92] 	——. Install Kibana with Debian Package | Kibana User Guide [5.3]. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/kibana/5.3/deb.html
+[93] 	——. Security: Enterprise Security for Elasticsearch | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/products/x-pack/security
+[94] 	——. Alerting: Alerts & Notifications for Elasticsearch. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/products/x-pack/alerting
+[95] 	Yelp Inc. Running ElastAlert for the First Time. [Accessed May 31, 2017]. [Online]. 
+		Available: https://elastalert.readthedocs.io/en/latest/running_elastalert.html
+[96] 	Oracle Corporation. Introduction to Oracle Database. [Accessed May 31, 2017]. [Online].
+		Available: https://docs.oracle.com/database/121/CNCPT/intro.htm#CNCPT88784
+[97] 	solid IT gmbh. DB-Engines Ranking – popularity ranking of database management systems. [Accessed May 01, 2017]. [Online]. 
+		Available: http://db-engines.com/en/ranking
+[98] 	Oracle Corporation. Oracle Technology Network Developer Day – Database Virtual Box Appliance / Virtual Machine. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html
+[99] 	M. A. Miller and S. Kost, “Oracle 12c Unified Auditing,” Integrigy Corporation, Tech. Rep., 2016.
+[100] 	T. Salama. Oracle Database 12c Security: New Unified Auditing. [Accessed May 31, 2017]. [Online]. 
+		Available: https://blogs.oracle.com/imc/entry/oracle_database_12c_new_unified
+[101] 	Oracle Corporation. Database Security Guide – Introduction to Auditing. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/database/121/DBSEG/audit_admin.htm#DBSEG1026
+[102] 	——. Database Security Guide – Configuring Audit Policies. [Accessed May 31, 2017]. [Online].
+		Available: https://docs.oracle.com/database/121/DBSEG/audit_config.htm#DBSEG1025
+[103] 	A. Čenys and D. Rainys and L. Radvilavicius and A. Bielko, “Development of Honeypot System Emulating Functions of Database Server,” Vilnius Gediminas Technical University, Tech. Rep., 2004.
+[104] 	L. L. Ray and H. Felch, “Methodology for Detecting Advanced Persistent Threats in Oracle Databases,” International Journal of Strategic Information Technology and Applications (IJSITA), vol. 5, no. 1, pp. 42–53, 2014.
+[105] 	Oracle Corporation. Database Upgrade Guide – Post-Upgrade Tasks for Oracle Database. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/database/121/UPGRD/afterup.htm#UPGRD004
+[106] 	——. Database Security Guide – Administering the Audit Trail. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/database/121/DBSEG/audit_admin.htm#DBSEG631
+[107] 	——. Oracle Instant Client Downloads. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html
+[108] 	——. Database Security Guide – Administering the Audit Trail. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/database/121/DBSEG/audit_admin.htm#DBSEG733
+[109] 	——. Oracle Database 12.2.0.1 JDBC Driver & UCP Downloads. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html
+[110] 	A. Jorgensen and J. Segarra and P. LeBlanc, Microsoft SQL Server 2012 Bible. John Wiley & Sons, 2012.
+[111] 	A. Wolter and K. Höltgen and F. Geisler and C. Klein, SQL Server 2014: Ein Blick in die Datenzukunft. entwickler.Press, 2014.
+[112] 	Microsoft Corporation. SQL Server Management Studio (SSMS). [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms
+[113] 	——. sqlcmd Utility. [Accessed May 31, 2017]. [Online]. 
+		Available: https://msdn.microsoft.com/en-us/library/ms162773.aspx
+[114] 	R. Byham and C. Guyer. SQL Server Audit (Database Engine). [Accessed May 31, 2017]. [Online]. 
+		Available: https://msdn.microsoft.com/en-us/library/cc280386.aspx
+[115] 	——. SQL Server Audit (Database Engine). [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-database-engine
+[116] 	——. CREATE SERVER AUDIT SPECIFICATION (Transact-SQL). [Accessed May 31, 2017]. [Online]. 
+		Available: https://msdn.microsoft.com/de-at/library/cc280448.aspx
+[117] 	Microsoft Corporation. Prinzipale (Datenbankmodul). [Accessed May 31, 2017]. [Online].
+		Available: https://msdn.microsoft.com/de-at/library/ms181127.aspx
+[118] 	J. Woo and S. Lee and C. Zoltowski, “Database Auditing.”
+[119] 	R. Byham and C. Guyer. SQL Server Utilities Statements – GO. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.microsoft.com/en-us/sql/t-sql/language-elements/sql-server-utilities-statements-go
+[120] 	Microsoft Corporation. 1.3 Overview. [Accessed May 31, 2017]. [Online]. 
+		Available: https://msdn.microsoft.com/en-us/library/dd357628.aspx
+[121] 	FreeTDS Project. FreeTDS.org. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.freetds.org/index.html
+[122] 	Microsoft Corporation. sys.fn_get_audit_file (Transact-SQL). [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.microsoft.com/en-us/sql/relational-databases/system-functions/sys-fn-get-audit-file-transact-sql
+[123] 	——. Download Microsoft JDBC Driver for SQL Server. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server
+[124] 	PostgreSQL Global Development Group. PostgreSQL: About. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.postgresql.org/about/
+[125] 	ubuntu Deutschland e. V. PostgreSQL. [Accessed May 31, 2017]. [Online]. 
+		Available: https://wiki.ubuntuusers.de/PostgreSQL
+[126] 	J. Ellingwood. How To Install and Use PostgreSQL on Ubuntu 16.04. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+[127] 	PostgreSQL Development Community. PostgreSQL Auditing Extension | PGAudit. [Accessed May 31, 2017]. [Online]. 
+		Available: http://pgaudit.org/
+[128] 	——. pgAudit Open Source PostgreSQL Audit Logging. [Accessed May 31, 2017]. [Online].
+		Available: https://github.com/pgaudit/pgaudit/blob/master/README.md
+[129] 	PostgreSQL Global Development Group. PostgreSQL: Documentation: 9.6: Error Reporting and Logging. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.postgresql.org/docs/9.6/static/runtime-config-logging.html
+[130] 	C. Chauhan, PostgreSQL Cookbook. Packt Publishing, 2015.
+[131] 	PostgreSQL Global Development Group. PostgreSQL: Documentation: 9.6: The pg_hba.conf File. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.postgresql.org/docs/9.6/static/auth-pg-hba-conf.html
+[132] 	T. Erik and P. Brown. logrotate. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.linuxcommand.org/man_pages/logrotate8.html
+[133] 	Elasticsearch. Step 2: Configuring Filebeat | Filebeat Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/beats/filebeat/5.3/filebeat-configuration.html
+[134] 	——. beats | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-inputs-beats.html
+[135] 	PostgreSQL Global Development Group. PostgreSQL: Documentation: 9.6: Error Reporting and Logging. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.postgresql.org/docs/9.6/static/runtime-config-logging.html
+[136] 	P. Murugesan and I. Ray, “Audit Log Management in MongoDB,” in 2014 IEEE World Congress on Services, June 2014, pp. 53–57.
+[137] 	E. Plugge and D. Hows and P. Membrey and T. Hawkins, The Definitive Guide to MongoDB: A complete guide to dealing with Big Data using MongoDB.
+Apress, 2015.
+[138] 	MongoDB Inc. Install MongoDB Enterprise on Ubuntu. [Accessed May 31, 2017]. [Online].
+		Available: https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/
+[139] 	——. Import Example Dataset. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/getting-started/shell/import-data/
+[140] 	——. Auditing – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/manual/core/auditing/
+[141] 	Percona LLC. Percona Server for MongoDB. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.percona.com/software/mongo-database/percona-server-for-mongodb
+[142] 	M. Cory, “MongoDB Incidence Response,” Master’s thesis, University of Central Florida, United States, Florida, 2016.
+[143] 	MongoDB Inc. Configure Auditing – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online].
+		Available: https://docs.mongodb.com/master/tutorial/configure-auditing/
+[144] 	——. Database Profiler – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/manual/tutorial/manage-the-database-profiler/
+[145] 	——. mongoreplay – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/manual/reference/program/mongoreplay/
+[146] 	——. Enable Auth – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/manual/tutorial/enable-authentication/
+[147] 	——. System Event Audit Messages – MongoDB Manual 3.2. [Accessed May 31, 2017]. [Online].
+		Available: https://docs.mongodb.com/v3.2/reference/audit-message/#audit-action-details-results
+[148] 	K. D. Dent, Postfix: The Definitive Guide. O’Reilly Media, 2003.
+[149] 	Postfix Projekt. The Postfix Home Page. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.postfix.org/start.html
+[150] 	Canonical Ltd. Ubuntu – Details of package postfix in xenial. [Accessed May 31, 2017]. [Online].
+		Available: http://packages.ubuntu.com/xenial/postfix
+[151] 	Postfix Projekt. Postfix Basic Configuration. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.postfix.org/BASIC_CONFIGURATION_README.html
+[152] 	J. Jetmore. Swaks – Swiss Army Knife for SMTP. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.jetmore.org/john/code/swaks/
+[153] 	H. Morikawa. logstash. [Accessed May 31, 2017]. [Online]. 
+		Available: https://github.com/nxhack/logstash/blob/master/patterns/postfix
+[154] 	T. Hendrikx. Logstash grok patterns for postfix logging. [Accessed May 31, 2017]. [Online].
+		Available: https://github.com/whyscream/postfix-grok-patterns
+[155] 	Elasticsearch. aggregate | Logstash Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online].
+		Available: https://www.elastic.co/guide/en/logstash/5.3/plugins-filters-aggregate.html
+[156] 	——. Powering Data Search, Log Analysis, Analytics | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/products
+[157] 	The Apache Software Foundation. Apache Cassandra. [Accessed May 31, 2017]. [Online].
+		Available: http://cassandra.apache.org/
+[158] 	Neo Technology Inc. Neo4j, the world’s leading graph database. [Accessed May 31, 2017]. [Online]. 
+		Available: https://neo4j.com/
+[159] 	The Apache Software Foundation. Documentation. [Accessed May 31, 2017]. [Online].
+		Available: http://cassandra.apache.org/doc/4.0/
+[160] 	Neo Technology Inc. The Neo4j Operations Manual v3.1. [Accessed May 31, 2017]. [Online].
+		Available: https://neo4j.com/docs/operations-manual/3.1/
+[161] 	Elasticsearch. Install Elasticsearch with Debian Package | Elasticsearch Reference [5.3] | Elastic. [Accessed May 31, 2017]. [Online]. 
+		Available: https://www.elastic.co/guide/en/elasticsearch/reference/5.3/deb.html
+[162] 	Oracle. JDK Installation for Linux Platforms. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html#BJFJJEFG
+[163] 	A. E. S. Lourenço. Elastalert: implementing rich monitoring with Elasticsearch. [Accessed May 31, 2017]. [Online]. 
+		Available: https://alexandreesl.com/2016/04/15/elastalert-implementing-rich-monitoring-with-elasticsearch/
+[164] 	C. Cristea. Installing Oracle SQL*Plus client on Ubuntu. [Accessed May 31, 2017]. [Online].
+		Available: http://webikon.com/cases/installing-oracle-sql-plus-client-on-ubuntu
+[165] 	MongoDB Inc. Install MongoDB Enterprise on Debian – MongoDB Manual 3.4. [Accessed May 31, 2017]. [Online]. 
+		Available: https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-debian/
+[166] 	J. Brockmeier. Adding Users and Aliases for Postfix. [Accessed May 31, 2017]. [Online]. 
+		Available: http://www.serverwatch.com/tutorials/article.php/3912056/Adding-Users-and-Aliases-for-Postfix.htm

@@ -1,0 +1,38 @@
+# Rule name, must be unique
+name: Monitor Oracle
+
+# Type of alert.
+# the frequency rule type alerts when num_events events occur with timeframe time
+type: any
+
+# Index to search, wildcard supported
+index: audit_databases_oracle-*
+
+filter:
+- query:
+    query_string:
+      query: "audit.policy:MONITOR_SALARY"
+
+query_key: "[audit][policy]"
+realert:
+ minutes: 10
+# The alert is use when a match is found
+alert:
+- "email"
+
+alert_subject: "ElastAlert: Access to monitored object {1} detected {0}."
+alert_subject_args:
+- "@timestamp"
+- audit.object.name
+
+alert_text_args:
+- "@timestamp"
+- audit.object.name
+
+alert_text: |
+ Access to to the monitored object {1} detected.
+ Connect to the Kibana webinterface http://192.168.56.254:5601 to receive more information.
+ You can also find further information about the event below.
+# a list of email addresses to send alerts to
+email:
+- "incident@fhstp.ac.at"

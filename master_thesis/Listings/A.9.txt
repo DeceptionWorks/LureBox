@@ -1,0 +1,2 @@
+user: elastalert@fhstp.ac.at
+password: P@ssw0rd

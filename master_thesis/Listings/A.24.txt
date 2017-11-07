@@ -1,0 +1,5 @@
+-- show the logs about users accessing the Employee table
+select event_timestamp, os_username, userhost, terminal, dbusername,client_program_name, action_name, sql_text, object_name
+  from unified_audit_trail
+  where fga_policy_name='MONITOR_EMPLOYEE'
+  order by event_timestamp desc;  

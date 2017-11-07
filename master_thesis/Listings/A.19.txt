@@ -1,0 +1,33 @@
+-- deactivate and remove unified audit policy 
+NOAUDIT POLICY MONITOR_SALARY;
+NOAUDIT POLICY MONITOR_SALARY by sys;
+DROP AUDIT POLICY MONITOR_SALARY;
+
+-- create policy 
+CREATE AUDIT POLICY MONITOR_SALARY ACTIONS 
+ ALTER on chinook.Salary,
+ AUDIT on chinook.Salary,
+ COMMENT on chinook.Salary,
+ DELETE on chinook.Salary,
+ FLASHBACK on chinook.Salary,
+ GRANT on chinook.Salary,
+ INDEX on chinook.Salary,
+ INSERT on chinook.Salary,
+ LOCK on chinook.Salary,
+ RENAME on chinook.Salary,
+ SELECT on chinook.Salary,
+ UPDATE on chinook.Salary;
+
+-- activate policy
+AUDIT POLICY MONITOR_SALARY;
+AUDIT POLICY MONITOR_SALARY by sys;
+
+-- show information about the available unified audit policies
+select distinct policy_name from audit_unified_policies;
+select * from audit_unified_policies  where policy_name ='MONITOR_SALARY';
+-- show information about all active unified audit policies
+
+select * from audit_unified_enabled_policies;
+-- save changes
+
+commit;

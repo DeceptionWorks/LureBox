@@ -1,0 +1,24 @@
+# 1. connect to the database via sqlplus. Use the user SYS with SYSDBA privileges 
+sqlplus sys as sysdba
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+# 2. shutdown database
+SQL> shutdown immediate
+Pluggable Database closed.
+SQL> exit
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+# 3. stop listener
+lsnrctl stop
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 05-MAR-2017 15:47:28
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1)))
+The command completed successfully
+
+# 4. change into $ORACLE_HOME/rdbms/lib directory
+racle@vbgeneric pfile]$ cd /u01/app/oracle/product/12.2/db_1/rdbms/lib
+
+# 5. activate Unified Auditing 
+make -f ins_rdbms.mk uniaud_on ioracle ORACLE_HOME=$ORACLE_HOME
+
+# 6. restart the whole server

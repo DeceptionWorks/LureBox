@@ -1,0 +1,13 @@
+#=========================== Filebeat prospectors =============================
+filebeat.prospectors:
+
+- input_type: log
+
+  # path to search for log data
+  paths:
+    - /var/log/mail.log
+
+#----------------------------- Logstash output --------------------------------
+output.logstash:
+  # The Logstash hosts
+  hosts: ["192.168.56.254:5045"]

@@ -1,0 +1,8 @@
+mongo
+MongoDB Enterprise > use fhstp
+MongoDB Enterprise >    db.createUser({
+                        user: 'chinookuser',
+                        pwd: 'P@ssw0rd',
+                        roles: [{ role: 'readWrite', db:'fhstp'}]
+                        })
+exit

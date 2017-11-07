@@ -1,0 +1,12 @@
+sqlplus64 chinook/p4ssw0rd@//192.168.56.1:1521/orcl
+
+SQL> select * from Salary;
+
+EMPLOYEEID     SALARY FROMDATE  TODATE
+---------- ---------- --------- ---------
+         1       2000 01-MAR-15 12-DEC-99
+         2       5000 01-DEC-16 12-DEC-99
+         3       1500 01-DEC-16 12-DEC-99
+...
+SQL> select * from Employee;
+...

@@ -1,0 +1,9 @@
+# installation of the necessary packages
+apt-get install freetds-common freetds-bin unixodbc
+
+# definition of the SQL server in the FreeTDS config file /etc/freetds/freetds.conf
+# A typical Microsoft server
+[MSSQLServer]
+        host = 192.168.56.2
+        port = 1433
+        tds version = 8.0

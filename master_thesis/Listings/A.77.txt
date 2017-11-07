@@ -1,0 +1,1 @@
+chown syslog:filebeat /var/log/mail.log 

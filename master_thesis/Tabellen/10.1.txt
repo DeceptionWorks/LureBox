@@ -1,0 +1,9 @@
+relationale Datenbank 					MongoDB
+Datenbank 						Datenbank
+Tabelle 						Collection
+Zeile 							Dokument oder BSON-Dokument
+Spalte 							Feld
+Index 							Index
+Tabellen-Joins 						eingebettete Dokumente und Linking
+Primärschlüssel (jede beliebige Spalte oder 		Primärschlüssel (wird automatisch über das _id Feld gesetzt)
+Kombination von Spalten) 

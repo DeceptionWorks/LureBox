@@ -1,0 +1,7 @@
+Schlüssel 			Wert
+SID (Oracle System ID) 		orcl12c
+Service name 			orcl
+Hostname 			localhost
+Port 				1521
+Benutzername 			system
+Passwort 			oracle

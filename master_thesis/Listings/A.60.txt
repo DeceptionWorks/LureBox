@@ -1,0 +1,5 @@
+# download the database
+wget https://raw.githubusercontent.com/mongodb/ docs-assets/primer-dataset/primer-dataset.json
+
+# import the database
+mongoimport --db fhstp --collection restaurants --drop --file primer-dataset.json

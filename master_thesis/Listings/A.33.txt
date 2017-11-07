@@ -1,0 +1,16 @@
+-- switch to the master context
+USE master; 
+GO 
+-- create a server audit object
+CREATE SERVER AUDIT MyServerAudit
+TO FILE 
+( FILEPATH = N'C:\fhstp\Audit'
+ ,MAXSIZE = 100 MB
+ ,MAX_ROLLOVER_FILES = 2147483647
+ ,RESERVE_DISK_SPACE = OFF
+)
+WITH
+( QUEUE_DELAY = 1000
+ ,ON_FAILURE = CONTINUE
+)
+GO

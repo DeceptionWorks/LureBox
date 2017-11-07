@@ -1,0 +1,6 @@
+# install Postfix
+apt-get install postfix apt-get install mailutils
+# change the config file /etc/postfix/main.cf
+mydestination = $myhostname, postfix.chinookcorp.com, chinookcorp.com, student-VirtualBox, localhost.localdomain, localhost
+# restart Postfix
+systemctl restart postfix

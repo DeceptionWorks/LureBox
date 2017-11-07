@@ -1,0 +1,21 @@
+CREATE TABLE [dbo].[Salary]
+(
+    [EmployeeId] INT NOT NULL,
+    [Salary] INT NOT NULL,
+    [FromDate] DATE NOT NULL,
+    [ToDate] DATE NOT NULL,
+    CONSTRAINT [PK_Salary] PRIMARY KEY CLUSTERED ([EmployeeId])
+);
+
+/* create foreign key */
+ALTER TABLE [dbo].[Salary] ADD CONSTRAINT [FK_SalaryEmployee]
+    FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([EmployeeId]);
+
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (1,2000,'2015-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (2,5000,'2016-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (3,1500,'2016-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (4,2000,'2015-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (5,3000,'2014-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (6,1000,'2016-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (7,1000,'2016-12-01','2099-12-12');
+INSERT INTO [dbo].[Salary] ([EmployeeId], [Salary], [FromDate], [ToDate]) VALUES (8,2000,'2016-12-01','2099-12-12');

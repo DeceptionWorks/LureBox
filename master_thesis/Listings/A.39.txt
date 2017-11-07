@@ -1,0 +1,14 @@
+-- create a user called auditor with the password P@ssw0rd
+create login auditor WITH PASSWORD = 'P@ssw0rd', 
+DEFAULT_DATABASE = Chinook;
+GO
+use master;
+grant CONTROL SERVER to auditor;
+GO
+
+-- test the connection from the Lure Box to the database with the newly created user
+tsql -S MSSQLServer -U auditor -P P@ssw0rd -D Chinook
+SELECT event_time,server_principal_name,database_principal_name, object_name, statement,* FROM fn_get_audit_file ('C:\fhstp\Audit\*',default, default)
+1> SELECT event_time,server_principal_name,database_principal_name, object_name, statement,* FROM fn_get_audit_file ('C:\fhstp\Audit\*',default, default)
+2> GO
+...

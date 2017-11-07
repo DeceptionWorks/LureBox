@@ -1,0 +1,12 @@
+[program:elastalert]
+user=elastalert
+command=/opt/elastalert/bin/elastalert --config /etc/elastalert/config.yaml --verbose
+process_name=elastalert
+autostart=true
+autorestart=true
+startsecs=15
+stopsignal=INT
+stopasgroup=true
+killasgroup=true
+stderr_logfile=/var/log/elastalert/elastalert.stderr.log
+stdout_logfile=/var/log/elastalert/elastalert.stdout.log

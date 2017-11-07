@@ -1,0 +1,10 @@
+# create a user called chinookuser 
+# -P tells postgres to ask for a password for the user
+# -d gives the user the right to create new databases
+sudo -u postgres createuser -P -d chinookuser
+
+# create database Chinook with the owner chinookuser
+sudo -u postgres createdb -O chinookuser Chinook
+
+# import the database out of the file Chinook_PostgreSql.sql 
+sudo -u postgres psql -f Chinook_PostgreSql.sql -q Chinook

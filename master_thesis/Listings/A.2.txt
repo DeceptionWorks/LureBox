@@ -1,0 +1,9 @@
+# update package repository and install filebeat
+sudo apt-get update && sudo apt-get install filebeat
+
+# add a filebeat user to the system and assign necessary privileges to access directories
+useradd -r filebeat
+mkdir /var/log/filebeat
+mkdir /var/lib/filebeat
+chown -R filebeat:filebeat /etc/filebeat/
+chown -R filebeat:filebeat /var/lib/filebeat/

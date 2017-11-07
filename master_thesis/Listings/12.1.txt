@@ -1,0 +1,8 @@
+From: elastalert@fhstp.ac.at
+To: incident@fhstp.ac.at
+
+An external mail to an internal address margaret@chinookcorp.com was received.
+The internal address is only allowed to receive messages from internal senders.
+Mails from external addresses indicate data loss.
+The sender address was: attack@insider.com
+Connect to the Kibana webinterface http://192.168.56.254:5601 to receive more information.

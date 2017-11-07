@@ -1,0 +1,324 @@
+2017-04-05 10:56:26,053 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-05 10:56:26,243 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2017-04-05 10:59:40,685 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-05 10:59:40,875 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2017-04-05 11:03:04,561 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-05 11:03:04,763 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-05 11:05:20,628 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-05 11:05:20,761 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-10 17:20:44,311 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-10 17:20:44,740 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-10 21:48:54,535 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-10 21:48:54,783 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-12 11:46:49,131 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-12 11:46:49,604 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-12 19:34:58,991 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-12 19:34:59,441 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-12 20:25:57,259 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-12 20:25:58,716 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-15 08:57:55,006 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-15 08:57:56,726 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-18 10:12:25,486 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-18 10:12:27,108 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-18 10:14:36,116 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-18 10:14:37,002 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-19 07:19:03,555 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-19 07:19:05,998 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-23 10:30:17,881 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-23 10:30:18,267 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-23 10:47:42,892 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-23 10:47:43,136 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-24 16:53:08,272 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-24 16:53:10,784 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-28 10:04:02,277 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-28 10:04:05,035 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-04-30 14:41:57,630 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-04-30 14:42:00,024 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-07 17:26:44,133 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-07 17:26:46,581 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-08 21:24:59,500 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-08 21:25:01,684 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-09 18:49:02,423 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-09 18:49:04,747 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-09 21:39:34,707 - [ERROR] - from application in ForkJoinPool-2-worker-3 
+
+
+! @741b5afah - Internal server error, for (POST) [/navbar] ->
+ 
+play.api.UnexpectedException: Unexpected exception[ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:289)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:220)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.Promise$class.complete(Promise.scala:55)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:160)
+	at org.asynchttpclient.netty.request.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:103)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:507)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:486)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:129)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:278)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:294)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	... 7 common frames omitted
+
+2017-05-09 21:39:34,716 - [ERROR] - from application in ForkJoinPool-2-worker-3 
+
+
+! @741b5afam - Internal server error, for (POST) [/cluster_changes] ->
+ 
+play.api.UnexpectedException: Unexpected exception[ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:289)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:220)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.Promise$class.complete(Promise.scala:55)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:160)
+	at org.asynchttpclient.netty.request.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:103)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:507)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:486)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:129)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:278)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:294)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	... 7 common frames omitted
+
+2017-05-09 21:39:34,721 - [ERROR] - from application in ForkJoinPool-2-worker-3 
+
+
+! @741b5afb5 - Internal server error, for (POST) [/overview] ->
+ 
+play.api.UnexpectedException: Unexpected exception[ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:289)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:220)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.Promise$class.complete(Promise.scala:55)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:237)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:121)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:160)
+	at org.asynchttpclient.netty.request.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:103)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:507)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:486)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:129)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:278)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:294)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:9200
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	... 7 common frames omitted
+
+2017-05-09 21:42:09,840 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-09 21:42:11,232 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-10 08:14:31,896 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-10 08:14:33,933 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-11 08:33:04,399 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-11 08:33:07,089 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-11 12:32:03,658 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-11 12:32:04,392 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+
+2017-05-24 09:10:13,098 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2017-05-24 09:10:15,777 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /192.168.56.254:9000
+

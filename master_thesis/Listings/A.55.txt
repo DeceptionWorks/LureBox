@@ -1,0 +1,13 @@
+[program:filebeat_postgresql]
+directory=/
+user=filebeat
+command=/usr/share/filebeat/bin/filebeat -e
+ -c /etc/filebeat/filebeat.yml
+ -path.home /usr/share/filebeat
+ -path.config /etc/filebeat
+ -path.data /var/lib/filebeat
+ -path.logs /var/log/filebeat
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/filebeat/filebeat_postgresql.stderr.log
+stdout_logfile=/var/log/filebeat/filebeat_postgresql.stdout.log

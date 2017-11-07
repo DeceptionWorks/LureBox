@@ -1,0 +1,10 @@
+# switch to user postgres
+su - postgres
+
+# connect to the chinook database via psql
+psql Chinook
+
+# assign necessary privileges to chinookuser
+Chinook=# grant select on all tables in schema public to chinookuser;
+Chinook=# grant connect on database "Chinook" to chinookuser;
+Chinook=# grant select on all sequences in schema public to chinookuser;  

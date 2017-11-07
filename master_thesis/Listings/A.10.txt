@@ -1,0 +1,6 @@
+# load virtualenv environment
+source /opt/elastalert/bin/activate
+# test a single rule
+elastalert-test-rule /etc/elastalert/rules/monitor_mssql.yaml
+# start ElastAlert with python
+python -m elastalert.elastalert --verbose

@@ -1,0 +1,28 @@
+# ERROR REPORTING AND LOGGING
+log_destination = 'csvlog'    
+logging_collector = on                 
+
+# the path for the log files can be defined absolute or relative to the PGDATA directory 
+log_directory = '/var/log/postgresql/pg_log/'               
+log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log' # pattern for name of the log files
+                                      
+log_file_mode = 0640                    
+
+log_truncate_on_rotation = off         
+log_rotation_age = 1d                   # automatic rotation of the log file after 1 day 
+log_rotation_size = 10MB                # automatic rotation of the log file when the file reaches a size bigger than 10 MB
+
+# - how should be logged-
+log_line_prefix = '%t [%p-%l] %r %q%u@%d '  
+
+# explanation of the prefixes: 
+# %t = timestamp in ms
+# %p = process ID
+# %l = line number of the session
+# %r = remote host and port
+# %u = username
+# %d = database name
+
+#log_lock_waits = off                  
+log_statement = 'all'                   
+log_timezone = 'localtime'

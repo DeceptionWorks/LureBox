@@ -1,0 +1,92 @@
+3.1.	Platzierung einer E-Mail-Nachricht im Posteingang eines Managementmitglieds in einem Unternehmen. 
+		Diese Nachricht dient zur Enttarnung von neugierigen MitarbeiterInnen sowie von AngreiferInnen
+5.1. 	Beispiel für die Installation und Konfiguration von Supervisor
+6.1. 	Beispiel der Logstash-Konfigurationsdatei test.conf. [90]
+6.2. 	Logstash-Konfiguration über Kommandozeile starten. [91]
+11.1. 	Auszug aus den Postfix-Logs
+11.2. 	Anwendung des Logstash Aggregate Plug-ins für Postfix-Logs
+12.1. 	Alarmierungs-E-Mail, die unter der Adresse incident@fhstp.ac.at empfangen wurde
+A.1. 	Hinzufügen der Elasticsearch-Paketquellen zu einem Debian-System. [161]
+A.2. 	Installation von Filebeat über die Paketquellen. [76]
+A.3. 	Installation von Elasticsearch und allen benötigten Abhängigkeiten. [161], [162]
+A.4. 	Installation und Konfiguration des Elasticsearch-Webinterfaces Cerebro. [78]
+A.5. 	Installation und Konfiguration von Logstash. [80]
+A.6. 	Installation und Konfiguration von Kibana. [92]
+A.7. 	Installation von ElastAlert in einer virtualenv-Umgebung. [163]
+A.8. 	Inhalt der Konfigurationsdatei von ElastAlert
+A.9. 	Inhalt der Datei für die SMTP-Authentifizierung von ElastAlert
+A.10.	Testen einer einzelnen ElastAlert-Regel und das Starten von ElastAlert für alle Regeln
+A.11.	Die Supervisor-Konfigurationsdatei für Cerebro
+A.12.	Die Supervisor-Konfigurationsdatei für Kibana
+A.13.	Die Supervisor-Konfigurationsdatei für ElastAlert
+A.14.	Importieren der Chinook-Datenbank mittels sqlplus
+A.15.	Salary-Tabelle anlegen, auf die keine Person zugreifen darf, und ein paar Einträge hinzufügen
+A.16.	Konfigurieren des Unified Auditing in den PURE-Modus. [105]
+A.17.	Abfrage, die zeigt, ob Unified Auditing im PURE-Modus aktiv ist. [105]
+A.18.	Immediate-write-Modus für die SGA konfigurieren. [106]
+A.19.	Konfiguration einer Unified Auditing Policy zur Überwachung jeglichen Zugriffs auf die Salary-Tabelle
+A.20.	Konfiguration einer Fine Grained Auditing Policy zur Überwachung von Zugriffen auf Honeytokens in der Employee-Tabelle
+A.21.	Herunterladen und Installation des Clients sqlplus. [164]
+A.22.	Zugriff von der Lure Box auf die Honeytokens in der Oracle-Datenbank
+A.23.	Ansehen der Logs, die aufgrund von Zugriffen auf die Salary-Tabelle generiert wurden
+A.24.	Ansehen der Logs, die aufgrund von Zugriffen auf die Employee-Tabelle generiert wurden
+A.25.	Anlegen und Testen eines Kontos mit der Berechtigung für den Zugriff auf Logdaten
+A.26.	Herunterladen und Abspeichern des Oracle JDBC-Treibers. [109]
+A.27.	Die Logstash-Konfigurationsdatei /etc/logstash/conf.d/oracle_database.conf
+A.28.	Ein Datenverzeichnis für die neue Logstash-Instanz anlegen
+A.29.	Die Supervisor-Konfigurationsdatei für die Abholung von Oracle-Logs mittels Logstash
+A.30.	Die ElastAlert-Regel /etc/elastalert/rules/monitor_oracle.yaml zur Alarmierung von Zugriffen auf Honeytokens
+A.31.	Importieren der Chinook-Datenbank mittels sqlcmd. [113]
+A.32.	Salary-Tabelle anlegen, auf die keine Person zugreifen darf, und ein paar Einträge hinzufügen
+A.33.	Anlegen eines Server-Audit-Objektes
+A.34.	Anlegen der Datenbank-Audit-Spezifikation zur Überwachung der Salary- und der Employee-Tabelle
+A.35.	Aktivieren des Server-Audit-Objektes MyServerAudit
+A.36.	Installation und Konfiguration von FreeTDS für den Zugriff auf eine MSSQL-Datenbank
+A.37.	Zugriff von der Lure Box auf die Honeytokens in der MSSQL-Datenbank
+A.38.	Ansehen der Logs, die aufgrund von Zugriffen auf die Salary- und die Employee-Tabelle generiert wurden
+A.39.	Anlegen und Testen eines Kontos mit der Berechtigung für den Zugriff auf Logdaten
+A.40.	Herunterladen und Abspeichern des MSSQL JDBC-Treibers. [123]
+A.41.	Die Logstash-Konfigurationsdatei /etc/logstash/conf.d/mssql_database.conf
+A.42.	Ein Datenverzeichnis für die neue Logstash-Instanz anlegen
+A.43.	Die Supervisor-Konfigurationsdatei für die Abholung von Microsoft SQL-Server-Logs mittels Logstash
+A.44.	Die ElastAlert-Regel /etc/elastalert/rules/monitor_mssql.yaml zur Alarmierung von Zugriffen auf Honeytokens
+A.45.	Importieren der Chinook-Datenbank mittels psql
+A.46.	Salary-Tabelle anlegen, auf die keine Person zugreifen darf, und ein paar Einträge hinzufügen
+A.47.	Ausschnitt aus der Konfiguratoinsdatei von PostgreSQL. In diesem Abschnitt wird das Auditing konfiguriert
+A.48.	Neustart des Datenbankservers durchführen, damit Änderungen aktiv werden
+A.49.	Vergabe der für den Zugriff erforderlichen Berechtigungen an das Konto chinookuser
+A.50.	Konfiguration von PostgreSQL für den Remote-Zugriff von der Lure Box
+A.51.	Installation eines PostgreSQL-Clients auf der Lure Box
+A.52.	Zugriff von der Lure Box auf die Honeytokens in der PostgreSQL-Datenbank
+A.53.	Änderungen, die an der Konfigurationsdatei von Filebeat vorgenommen werden müssen
+A.54.	Filebeat als Mitglied der Gruppe postgres definieren und die Berechtigungen des PostgreSQL-Logverzeichnisses anpassen
+A.55.	Die Supervisor-Konfigurationsdatei für das Versenden der PostgreSQL-Logs mittels Filebeat an die Lure Box
+A.56.	Die Logstash-Konfigurationsdatei /etc/logstash/conf.d/postgresql_database.conf
+A.57.	Ein Datenverzeichnis für die neue Logstash-Instanz anlegen
+A.58.	Die Supervisor-Konfigurationsdatei für die Verarbeitung der PostgreSQL-Logs mittels Logstash
+A.59.	Die ElastAlert-Regel /etc/elastalert/rules/monitor_mssql.yaml zur Alarmierung von Zugriffen auf Honeytokens
+A.60.	Importieren einer Beispieldatenbank für MongoDB. [139]
+A.61.	Anlegen einer Salary-Collection und das Einfügen von Datensätzen in die Collection
+A.62.	Ausschnitt aus der Konfigurationsdatei von MongoDB. In der auditLog-Sektion wird dem Daemon mitgeteilt, 
+		dass alle auf die Collections „Salary“ und „Restaurants“ abzielenden Zugriffe auditiert werden sollen
+A.63.	Konto für den entfernten Zugriff auf MongoDB anlegen
+A.64.	MongoDB aus dem Netzwerk 192.168.56.0/24 erreichbar machen und den BenutzerInnen die Authentifizierung ermöglichen
+A.65.	Installation der MongoDB-Shell über die Paketquellen. [165]
+A.66.	Zugriff von der Lure Box auf die Honeytokens in der MongoDB-Datenbank
+A.67.	Änderungen, die an der Konfigurationsdatei von Filebeat vorgenommen werden müssen
+A.68.	Die Supervisor-Konfigurationsdatei für das Versenden der MongoDB-Logs mittels Filebeat an die Lure Box
+A.69.	Die Logstash-Konfigurationsdatei /etc/logstash/conf.d/postgresql_database.conf
+A.70.	Ein Datenverzeichnis für die neue Logstash-Instanz anlegen
+A.71.	Die Supervisor-Konfigurationsdatei für die Verarbeitung der MongoDB-Logs mittels Logstash
+A.72.	Die ElastAlert-Regel /etc/elastalert/rules/monitor_mongodb.yaml zur Alarmierung von Zugriffen auf Honeytokens
+A.73.	Installation und Konfiguration von Postfix unter Ubuntu 16.04
+A.74.	Hinzufügen der zwei Honeytoken-BenutzerInnen, damit E-Mail-Nachrichten an diese gesendet werden können. [166]
+A.75.	Installation von swaks und das Versenden von E-Mail-Nachrichten an die Honeytoken-MitarbeiterInnen von der Lure Box aus. [152]
+A.76.	Änderungen, die an der Konfigurationsdatei von Filebeat vorgenommen werden müssen
+A.77.	Dem Konto Filebeat den lesenden Zugriff auf die Logdaten von Postfix ermöglichen
+A.78.	Die Supervisor-Konfigurationsdatei für das Versenden der MongoDB-Logs mittels Filebeat an die Lure Box
+A.79.	Die Logstash-Konfigurationsdatei /etc/logstash/conf.d/postgresql_database.conf
+A.80.	Installation des Logstash Aggregate Plug-ins. [155]
+A.81.	Ein Datenverzeichnis für die neue Logstash-Instanz anlegen
+A.82.	Die Supervisor-Konfigurationsdatei für die Verarbeitung der MongoDB-Logs mittels Logstash
+A.83.	Die ElastAlert-Regel /etc/elastalert/rules/monitor_postfix.yaml zur Alarmierung von Zugriffen auf Honeytokens

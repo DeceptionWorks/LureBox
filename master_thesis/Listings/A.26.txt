@@ -1,0 +1,7 @@
+# download the JDBC driver from the Oracle website 
+http://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html
+
+# create a directory to store the driver
+mkdir -p /opt/jdbc/oracle
+# move the driver into the directory /opt/jdbc/oracle
+mv ojdbc8.jar /opt/jdbc/oracle

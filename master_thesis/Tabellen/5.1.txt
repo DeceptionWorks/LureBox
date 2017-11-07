@@ -1,0 +1,13 @@
+Art der Datenbank Beschreibung
+Key-Value 
+Eines der einfachsten Datenmodelle, bei dem jeder Eintrag als Schlüssel mit seinem Wert abgespeichert wird. Beispiele: Amazon Dynamo, Riak und Redis.
+
+spaltenorientiert
+Sind konzeptionell den relationalen Datenbanken am ähnlichsten, da die Daten in einer Tabelle gespeichert werden. Die Datenbank speichert Inhalte spaltenweise statt zeilenweise. Beispiele: Google BigTable, Cassandra und HBase.
+
+dokumentorientiert
+Das Datenmodell basiert auf sogenannten „Dokumenten“. Diese sind komplexe Strukturen, die Daten als Key-Values speichern. Sie können auch viele Key-Value-Paare, Key-Array-Paare und sogar verschachtelte Dokumente beinhalten. Beispiele: MongoDB, Apache CouchDB und Amazon SimpleDB.
+
+Graphen
+Diese sind am besten dafür geeignet, Daten zu speichern, deren Relationen sich am besten mittels eines Graphen darstellen lassen. So wäre die Repräsentation von Netzwerktopologien oder sozialen Netzwerken mit Graphendatenbanken ideal. Beispiele: Neo4J und HyperGraphDB.
+

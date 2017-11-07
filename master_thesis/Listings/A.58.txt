@@ -1,0 +1,8 @@
+[program:logstash_postgresql]
+directory=/
+user=logstash
+command=/usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/postgresql_database.conf --path.data /usr/share/logstash/data/postgresql/
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/logstash/logstash_postgresql.stderr.log
+stdout_logfile=/var/log/logstash/logstash_postgresql.stdout.log

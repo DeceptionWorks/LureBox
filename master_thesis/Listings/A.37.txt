@@ -1,0 +1,14 @@
+# -S name of the server which is defined in/etc/freetds/freetds.conf 
+# -U username for the connection
+# -P password for the connection 
+# -D database to connect to 
+tsql -S MSSQLServer -U auditor -P P@ssw0rd -D Chinook
+
+1> select * from Salary;
+2> go
+EmployeeId      Salary  FromDate        ToDate
+1       2000    2015-12-01      2099-12-12
+...
+1> select * from Employee;
+2> go
+...

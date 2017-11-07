@@ -1,0 +1,46 @@
+# (Required)
+# Rule name, must be unique
+name: Monitor Postfix
+
+# (Required)
+# Type of alert.
+# the frequency rule type alerts when num_events events occur with timeframe time
+type: any
+
+# (Required)
+# Index to search, wildcard supported
+index: audit_postfix-*
+
+filter:
+- query:
+    query_string:
+      query: "tags:'create_alert'"
+
+query_key: "[audit][postfix][queue_id]"
+
+realert:
+ minutes: 10
+# (Required)
+# The alert is use when a match is found
+alert:
+- "email"
+
+alert_subject: "ElastAlert: Possible data leak in your company detected."
+alert_subject_args:
+- "@timestamp"
+
+alert_text_args:
+- "audit.postfix.to"
+- "audit.postfix.from"
+
+alert_text: |
+ An external mail to an internal address {0} was received.
+ The internal address is only allowed to receive messages from internal senders.
+ Mails from external addresses indicate data loss.
+ The sender address was: {1}
+ Connect to the Kibana webinterface http://192.168.56.254:5601 to receive more information.
+ You can also find further information about the event below.
+# (required, email specific)
+# a list of email addresses to send alerts to
+email:
+- "incident@fhstp.ac.at"

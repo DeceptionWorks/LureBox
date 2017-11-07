@@ -1,0 +1,118 @@
+input {
+        # use filebeat as input for this log source
+        beats {
+                port => 5045
+                ssl => false
+        }
+}
+filter {
+        # add information about the origin of the log source
+        mutate { add_field => ["[log_source][received_at]", "%{@timestamp}"] }
+        mutate { add_field => ["[log_source][host]", "192.168.56.5"] }
+        mutate { add_field => ["[log_source][product]", "Postfix"] }
+
+        # split up the message into the SYSLOG format
+        grok {
+                patterns_dir => ["/etc/logstash/patterns"]
+                match => { "message" => "%{SYSLOGBASE} %{GREEDYDATA:syslog_message}" }
+        }
+        # split up the logline which contains the recipient address of a mail
+        if [program] =~ /^postfix.*\/local$/ {
+                grok {
+                        patterns_dir   => "/etc/logstash/patterns"
+                        match          => [ "syslog_message", "^%{POSTFIX_LOCAL}$" ]
+                        tag_on_failure => [ "_grok_postfix_local_nomatch" ]
+                        add_tag        => [ "_grok_postfix_success" ]
+                }
+        }
+        # split up the logline which contains the sender address of the mail send locally
+        else if [program] =~ /^postfix.*\/pickup$/ {
+                grok {
+                        patterns_dir   => "/etc/logstash/patterns"
+                        match          => [ "syslog_message", "^%{POSTFIX_PICKUP}$" ]
+                        tag_on_failure => [ "_grok_postfix_pickup_nomatch" ]
+                        add_tag        => [ "_grok_postfix_success" ]
+                }
+        }
+        # split up the logline which contains the sender address of the mail from external
+        else if [program] =~ /^postfix.*\/qmgr$/ {
+                grok {
+                        patterns_dir   => "/etc/logstash/patterns"
+                        match          => [ "syslog_message", "^%{POSTFIX_QMGR}$" ]
+                        tag_on_failure => [ "_grok_postfix_qmgr_nomatch" ]
+                        add_tag        => [ "_grok_postfix_success" ]
+                }
+        }
+
+        # drop all other loglines of postfix
+        else { drop {} }
+
+        # split up the key-value pairs of postfix
+        if [postfix_keyvalue_data] {
+                kv {
+                        source       => "postfix_keyvalue_data"
+                        trim_value   => "<>,"
+                        prefix       => "postfix_"
+                        remove_field => [ "postfix_keyvalue_data" ]
+                }
+        }
+
+     # summarize fields about the received logline
+        mutate { rename => {"[postfix_relay]" => "[audit][postfix][relay]"} }
+        mutate { rename => {"[postfix_status]" => "[audit][postfix][status]"} }
+        #mutate { rename => {"[postfix_to]" => "[audit][postfix][to]"} }
+        mutate { rename => {"[postfix_uid]" => "[audit][postfix][uid]"} }
+        mutate { rename => {"[program]" => "[audit][postfix][component]"} }
+        mutate { rename => {"[source]" => "[audit][file][name]"} }
+        mutate { rename => {"[offset]" => "[audit][file][offset]"} }
+
+        # the aggregate plugin allows to aggregate multiple events which belong to the same task
+        # postfix logs the sender and recipient of a mail message with multiple log lines which
+        # belong to the same task
+        if [postfix_from] {
+                aggregate {
+                        task_id => "%{postfix_queueid}"
+                        code => "map['from'] = event.get('postfix_from')"
+                        map_action => "create"
+                }
+        }
+        if [postfix_to] {
+                aggregate {
+                        task_id => "%{postfix_queueid}"
+                        code => "event.set('postfix_from',map['from'])"
+                        map_action => "update"
+                        end_of_task => true
+                        push_map_as_event_on_timeout => true
+                        timeout => 600 # 10 minutes timeout
+                }
+                mutate { rename => {"[postfix_to]" => "[audit][postfix][to]"} }
+                mutate { rename => {"[postfix_from]" => "[audit][postfix][from]"} }
+                mutate { rename => {"[postfix_queueid]" => "[audit][postfix][queue_id]"} }
+
+        }
+
+        # build the correct @timestamp field out of the timestamp field
+        # the year is not part of a postfix logline, therefore the year is taken out of the date when the logline was received by logstash
+        grok { match => { "@timestamp" => "%{YEAR:year}%{GREEDYDATA:unimportant}" } }
+        mutate { replace => ["timestamp", "%{year}%{timestamp}"] }
+        mutate { convert => ["timestamp" , "string"] }
+        date { match => ["timestamp", "yyyyMMM dd HH:mm:ss"] }
+
+        # add a TAG to the event which will be used in ElastAlert to decide if an alert should be created
+        if [audit][postfix][to] in ["margaret@chinookcorp.com","steve@chinookcorp.com"] and ! ([audit][postfix][from] =~ /^.*@chinookcorp.com$/){
+                mutate { add_tag => "create_alert" }
+        }
+        # remove unnecessary fields
+        mutate { remove_field => ["[beat][name]","[beat][version]","[beat][hostname]","host", "input_type","logsource","pid","postfix_delay","postfix_delays", "postfix_dsn","type","unimportant","year","timestamp", "syslog_message","message"] }
+
+}
+output {
+        # uncomment the following line for getting a debug output in logstash
+        # stdout { codec => rubydebug}
+
+        # write the output to the elasticsearch database
+        elasticsearch {
+                hosts => ["127.0.0.1:9200"]
+                index => "audit_postfix-%{+YYYY.MM.dd}"
+        }
+}

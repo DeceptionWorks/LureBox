@@ -1,0 +1,2 @@
+mkdir -p /usr/share/logstash/data/postgresql
+chown logstash:logstash /usr/share/logstash/data/postgresql

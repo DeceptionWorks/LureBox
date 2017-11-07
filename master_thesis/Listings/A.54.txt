@@ -1,0 +1,5 @@
+# add user filebeat to the postgres group
+usermod -a -G postgres filebeat
+
+# change permissions of the log directory
+chmod 751 /var/log/postgresql/pg_log/

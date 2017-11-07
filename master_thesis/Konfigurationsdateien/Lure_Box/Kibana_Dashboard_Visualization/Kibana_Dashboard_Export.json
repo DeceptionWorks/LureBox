@@ -1,0 +1,153 @@
+[
+  {
+    "_id": "4fb34a50-2db5-11e7-bbff-85bed5c491cf",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Honeytoken-Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":6,\"size_y\":4,\"panelIndex\":2,\"type\":\"search\",\"id\":\"1f556f40-2db6-11e7-84b9-8319fce27bd1\",\"col\":1,\"row\":6,\"columns\":[\"src.ip\",\"audit.object.schema\",\"audit.object.name\",\"log_source.host\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":6,\"size_y\":4,\"panelIndex\":3,\"type\":\"search\",\"id\":\"ddc1de10-2db5-11e7-84b9-8319fce27bd1\",\"col\":7,\"row\":6,\"columns\":[\"audit.database.name\",\"audit.object.name\",\"log_source.host\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"search\",\"id\":\"a2d36430-2db6-11e7-84b9-8319fce27bd1\",\"col\":1,\"row\":15,\"columns\":[\"audit.postfix.from\",\"audit.postfix.to\",\"audit.postfix.queue_id\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":6,\"size_y\":5,\"panelIndex\":5,\"type\":\"search\",\"id\":\"6873d950-2db6-11e7-84b9-8319fce27bd1\",\"col\":7,\"row\":10,\"columns\":[\"src.ip\",\"audit.database.name\",\"audit.query.text\",\"log_source.host\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":6,\"size_y\":5,\"panelIndex\":6,\"type\":\"search\",\"id\":\"007afc80-2db5-11e7-9181-d1153f6fba8e\",\"col\":1,\"row\":10,\"columns\":[\"src.ip\",\"audit.database.name\",\"audit.object.namespace\",\"log_source.host\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":12,\"size_y\":5,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"a9ebfdd0-2db7-11e7-8b50-3bfdd20f1c3d\",\"col\":1,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-30d",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "007afc80-2db5-11e7-9181-d1153f6fba8e",
+    "_type": "search",
+    "_source": {
+      "title": "MongoDB-Honeytoken",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src.ip",
+        "audit.database.name",
+        "audit.object.namespace",
+        "log_source.host"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_databases_mongodb-*\",\"highlightAll\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"audit.object.namespace:'fhstp.salary'\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "ddc1de10-2db5-11e7-84b9-8319fce27bd1",
+    "_type": "search",
+    "_source": {
+      "title": "MSSQL-Honeytoken",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "audit.database.name",
+        "audit.object.name",
+        "log_source.host"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_databases_mssql-*\",\"highlightAll\":true,\"query\":{\"query_string\":{\"query\":\"audit.object.name:Salary\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1f556f40-2db6-11e7-84b9-8319fce27bd1",
+    "_type": "search",
+    "_source": {
+      "title": "Oracle-Honeytoken",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src.ip",
+        "audit.object.schema",
+        "audit.object.name",
+        "log_source.host"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_databases_oracle-*\",\"highlightAll\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"audit.policy:MONITOR_SALARY\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "6873d950-2db6-11e7-84b9-8319fce27bd1",
+    "_type": "search",
+    "_source": {
+      "title": "PostgreSQL-Honeytoken",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src.ip",
+        "audit.database.name",
+        "audit.query.text",
+        "log_source.host"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_databases_postgresql-*\",\"highlightAll\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"audit.query.text:Salary\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "a2d36430-2db6-11e7-84b9-8319fce27bd1",
+    "_type": "search",
+    "_source": {
+      "title": "Postfix-Honeytoken",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "audit.postfix.from",
+        "audit.postfix.to",
+        "audit.postfix.queue_id"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_postfix-*\",\"highlightAll\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"tags:'create_alert'\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "a9ebfdd0-2db7-11e7-8b50-3bfdd20f1c3d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Logs-Received-Per-LogSource",
+      "visState": "{\"title\":\"Logs-Received-Per-LogSource\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"log_source.product.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Logs received per log source\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"audit_*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

@@ -1,0 +1,6 @@
+# update package repository und install Logstash
+apt-get update && apt-get install logstash
+
+## create a directory which is needed for last_run values
+mkdir -p /etc/logstash/last_run
+chown logstash:logstash /etc/logstash/last_run/

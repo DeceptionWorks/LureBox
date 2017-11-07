@@ -1,0 +1,9 @@
+-- switch to the Chinook context
+USE Chinook;
+
+CREATE DATABASE AUDIT SPECIFICATION Monitor_Salary_Employee
+FOR SERVER AUDIT MyServerAudit
+ADD (SELECT,INSERT, UPDATE, DELETE, EXECUTE, RECEIVE ON dbo.Salary by public),
+ADD (SELECT,INSERT, UPDATE, DELETE, EXECUTE, RECEIVE ON dbo.Employee by public)
+WITH (STATE = ON);
+GO

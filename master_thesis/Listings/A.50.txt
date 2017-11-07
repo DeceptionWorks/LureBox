@@ -1,0 +1,13 @@
+# change network listen address in /etc/postgresql/9.5/main/postgresql.conf
+listen_addresses = 'localhost,192.168.56.3'
+
+# change authentication in /etc/postgresql/9.5/main/pg_hba.conf
+# the entries have the format type,database, user, address and method
+
+# all local connections shall be authenticated via md5
+local   all             all                                    md5
+
+# IPv4 connections from the local computer are fully trusted 
+# the host 192.168.56.254 is allowed to connect to the Chinook database via md5
+host    all             all             127.0.0.1/32            trust
+host Chinook chinookuser 192.168.56.254/32 md5

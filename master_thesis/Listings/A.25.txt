@@ -1,0 +1,12 @@
+-- create a user called auditor with the password oracle
+CREATE USER auditor IDENTIFIED BY oracle;
+
+-- assign the role audit_viewer to the user 
+ grant create session, audit_viewer to auditor;
+ 
+commit;
+
+-- test the connection from the Lure Box to the database with the newly created user
+sqlplus64 auditor/oracle@//192.168.56.1:1521/orcl
+SQL> select * from unified_audit_trail;
+...

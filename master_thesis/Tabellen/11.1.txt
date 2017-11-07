@@ -1,0 +1,3 @@
+EmployeeId 	Nachname 	Vorname 	Geburtsdatum 	Stadt 	E-Mail-Adresse
+4 		Park 		Margaret 	19.09.1947 	Calgary margaret@chinookcorp.com
+5 		Johnson 	Steve 		03.03.1965 	Calgary steve@chinookcorp.com

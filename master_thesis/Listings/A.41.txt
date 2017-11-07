@@ -1,0 +1,58 @@
+input {
+        # use jdbs as input for this log source
+        jdbc {
+                jdbc_validate_connection => true
+                jdbc_connection_string => "jdbc:sqlserver://192.168.56.2:1433;databaseName=Chinook"
+                jdbc_user => "auditor"
+                jdbc_password => "P@ssw0rd"
+                jdbc_driver_library => "/opt/jdbc/mssql/sqljdbc42.jar"
+                jdbc_driver_class => "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                statement => "select dateadd(hour,2,cast(event_time as datetime)) as event_time, action_id, session_id, server_principal_id, object_id, server_principal_name, database_principal_name,server_instance_name, database_name, schema_name, object_name, statement,  succeeded, file_name, audit_file_offset from fn_get_audit_file ('C:\fhstp\Audit\*',default, default);"
+                clean_run => "false"
+                record_last_run => "true"
+                last_run_metadata_path => "/etc/logstash/last_run/jdbc_last_run_mssql"
+                schedule => "* * * * *"
+       }
+}
+filter {
+        # add information about the origin of the log source
+        mutate { add_field => ["[log_source][received_at]", "%{@timestamp}"] }
+        mutate { add_field => ["[log_source][host]", "192.168.56.2"] }
+        mutate { add_field => ["[log_source][product]", "Microsoft SQL Server 2016"] }
+
+        # summarize fields about the audit
+        mutate { rename => {"[session_id]" => "[audit][session_id]"} }
+        mutate { rename => {"[action_id]" => "[audit][action]"} }
+        mutate { rename => {"[server_instance_name]" => "[audit][server][instance_name]"} }
+        mutate { rename => {"[server_principal_id]" => "[audit][database][user_id]"} }
+        mutate { rename => {"[server_principal_name]" => "[audit][database][username]"} }
+        mutate { rename => {"[database_principal_name]" => "[audit][database][principal_name]"} }
+        mutate { rename => {"[database_name]" => "[audit][database][name]"} }
+        mutate { rename => {"[file_name]" => "[audit][file][name]"} }
+        mutate { rename => {"[audit_file_offset]" => "[audit][file][offset]"} }
+        mutate { rename => {"[object_name]" => "[audit][object][name]"} }
+        mutate { rename => {"[object_id]" => "[audit][object][id]"} }
+        mutate { rename => {"[schema_name]" => "[audit][object][schema]"} }
+        mutate { rename => {"[statement]" => "[audit][query][text]"} }
+        mutate { rename => {"[succeeded]" => "[audit][query][succeeded]"} }
+
+        # use the event_time field as timestamp for the event
+        # attention: in the SQL query two hours were added on purpose.
+        # this was necessary to get the correct timestamp stored in the database
+        mutate { convert => ["event_time" , "string"] }
+        date { match => ["event_time", "ISO8601"]  }
+
+        # remove unnecessary fields
+        mutate { remove_field => ["event_time"] }
+
+}
+output {
+        # uncomment the following line for getting a debug output in logstash
+        #stdout { codec => rubydebug}
+
+        # write the output to the elasticsearch database
+        elasticsearch {
+                hosts => ["127.0.0.1:9200"]
+ index => "audit_databases_mssql-%{+YYYY.MM.dd}"
+        }
+}

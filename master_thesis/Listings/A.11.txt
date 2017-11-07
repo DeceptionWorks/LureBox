@@ -1,0 +1,12 @@
+[program:cerebro]
+user=cerebro
+command=/bin/bash -c "rm -f /opt/cerebro/cerebro-0.6.4/RUNNING_PID && /opt/cerebro/cerebro-0.6.4/bin/cerebro -Dhttp.address=192.168.56.254"
+process_name=cerebro
+autostart=true
+autorestart=true
+startsecs=15
+stopsignal=INT
+stopasgroup=true
+killasgroup=true
+stderr_logfile=/var/log/cerebro/cerebro.stderr.log
+stdout_logfile=/var/log/cerebro/cerebro.stdout.log

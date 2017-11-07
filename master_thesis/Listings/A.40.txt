@@ -1,0 +1,5 @@
+# create a directory to store the driver 
+mkdir -p /opt/jdbc/mssql
+# extact the driver and move it into the directory /opt/jdbc/mssql
+tar xvf sqljdbc_6.0.8112.100_enu.tar.gz 
+mv sqljdbc_6.0/enu/jre/sqljdbc42.jar /opt/jdbc/mssql/

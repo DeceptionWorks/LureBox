@@ -1,0 +1,36 @@
+-- #### monitor the employee table with Fine Grained Auditing
+--https://docs.oracle.com/database/121/DBSEG/audit_config.htm#DBSEG90057
+-- deactivate policy
+BEGIN
+DBMS_FGA.DISABLE_POLICY(
+  object_schema      => 'CHINOOK',
+  object_name        => 'EMPLOYEE',
+  policy_name        => 'MONITOR_EMPLOYEE');
+END;
+/
+-- remove policy
+BEGIN
+ DBMS_FGA.DROP_POLICY(
+  object_schema      => 'CHINOOK',
+  object_name        => 'EMPLOYEE',
+  policy_name        => 'MONITOR_EMPLOYEE');
+END;
+/
+
+-- create policy
+BEGIN
+  DBMS_FGA.ADD_POLICY(
+   object_schema      => 'CHINOOK',
+   object_name        => 'EMPLOYEE',
+   policy_name        => 'MONITOR_EMPLOYEE',
+   audit_condition    => 'EMPLOYEEID in (4,5)', 
+   audit_column_opts   => DBMS_FGA.ANY_COLUMNS,
+   enable             =>  TRUE,
+   statement_types    => 'INSERT, UPDATE, SELECT, DELETE');
+END;
+/
+-- save changes
+commit;
+
+-- show information about all available Fine Grained Audit Policies
+SELECT policy_name, enabled, policy_text, policy_column_options from DBA_AUDIT_POLICIES;

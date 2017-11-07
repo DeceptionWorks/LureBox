@@ -1,0 +1,6 @@
+mongo 192.168.56.4/fhstp -u chinookuser -p P@ssw0rd
+MongoDB Enterprise > db.salary.find()
+{ "_id" : ObjectId("58da897c29b4c2af9c4de080"), "EmployeeId" : 1, "Salary" : 2000, "FromDate" : ISODate("2015-12-01T00:00:00Z"), "ToDate" : ISODate("2099-12-12T00:00:00Z") }
+{ "_id" : ObjectId("58da897c29b4c2af9c4de081"), "EmployeeId" : 2, "Salary" : 5000, "FromDate" : ISODate("2016-12-01T00:00:00Z"), "ToDate" : ISODate("2099-12-12T00:00:00Z") }
+{ "_id" : ObjectId("58da897c29b4c2a
+...

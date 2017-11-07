@@ -1,0 +1,1 @@
+SELECT event_time,server_principal_name,database_principal_name, object_name, statement,* FROM fn_get_audit_file ('C:\fhstp\Audit\*',default, default)

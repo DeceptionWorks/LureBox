@@ -1,0 +1,5 @@
+5.1. 	Arten, in die NoSQL-Datenbanken eingeteilt werden können. [69, S. 5]
+7.1. 	Zugriffsdaten auf die Oracle-Datenbank
+10.1. 	Gegenüberstellung der Terminologie und Konzepte von relationalen Datenbanken und MongoDB. [65, S. 9]
+10.2. 	Pakete, die mittels des Metapackages mongodb-enterprise installiert werden
+11.1. 	MitarbeiterInnen aus der Chinook-Datenbank, die überwacht werden. [62] 

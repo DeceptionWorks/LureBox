@@ -1,0 +1,17 @@
+# add a cerebro user to the system
+useradd -r cerebro
+# download current version from https://github.com/lmenezes/cerebro/releases herunterladen
+wget https://github.com/lmenezes/cerebro/releases/download/v0.6.4/cerebro-0.6.4.tgz 
+# create a directory where cerebro shall be extracted to. The user cerebro shall become owner of the directory. 
+mkdir /opt/cerebro
+tar -xvf cerebro-0.6.4.tgz -C /opt/cerebro
+chown -R cerebro:cerebro /opt/cerebro/
+# create a directory for storing the log files 
+mkdir /var/log/cerebro
+
+# change the hosts section in the config file  /opt/cerebro/cerebro-0.6.4/conf/application.conf 
+hosts = [
+  {
+    host = "http://localhost:9200"
+    name = "lure-box"
+  }]

@@ -1,0 +1,1 @@
+sqlplus sys/oracle as sysdba @Chinook_Oracle.sql > output

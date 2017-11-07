@@ -1,0 +1,8 @@
+[program:logstash_mongodb]
+directory=/
+user=logstash
+command=/usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/mongodb_database.conf --path.data /usr/share/logstash/data/mongodb/
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/logstash/logstash_mongodb.stderr.log
+stdout_logfile=/var/log/logstash/logstash_mongodb.stdout.log

@@ -1,0 +1,1 @@
+sqlcmd -i Chinook_SqlServer_AutoIncrementPKs.sql -o output.txt

@@ -1,0 +1,16 @@
+#=========================== Filebeat prospectors =============================
+filebeat.prospectors:
+- input_type: log
+  # paths where to look for log files
+  paths:
+    - /var/log/postgresql/pg_log/*.csv
+
+ ### Multiline options
+  # the regex pattern is used to detected new lines
+  multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  multiline.negate: true
+  multiline.match: after
+#----------------------------- Logstash output --------------------------------
+output.logstash:
+  # The Logstash hosts
+  hosts: ["192.168.56.254:5044"]

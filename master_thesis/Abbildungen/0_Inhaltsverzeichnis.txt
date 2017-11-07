@@ -1,0 +1,12 @@
+1.1. 	Die Gliederung dieser Arbeit
+4.1. 	Verwendung der Lure Box in zwei verschiedenen Szenarien
+4.2. 	Anbindung der verschiedenen Logquellen an die Lure Box. In dieser werden die Logsverarbeitet und gespeichert. 
+		Basierend auf definierten Regeln können Alarme generiert werden.
+4.3. 	Schema der Beispieldatenbank Chinook. [63]
+5.1. 	Begriffe relationaler Datenbanken. [67]
+5.2. 	Konfiguration eines Host-only-Netzwerkes mittels VirtualBox
+5.3. 	Die Funktionsweise von Filebeat. [57]
+6.1. 	Die Logstash Verarbeitungspipeline. [79]
+7.1. 	Überblick über die Funktionsweise der Unified_Audit_Trail. [100]
+12.1. 	Darstellung von Oracle-Logs in Kibana
+12.2. 	Darstellung eines einzelnen, von Postfix generierten Events in Kibana

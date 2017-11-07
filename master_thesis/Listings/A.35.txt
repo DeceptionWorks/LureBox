@@ -1,0 +1,4 @@
+USE master;
+GO
+Alter Server Audit MyServerAudit with(State=ON) -- deaktivieren mittels STATE=OFF
+GO

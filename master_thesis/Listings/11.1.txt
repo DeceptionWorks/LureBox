@@ -1,0 +1,9 @@
+# message from newsletter@chinookcorp.com to steve@chinookcorp.com
+postfix/qmgr[20871]: 105851A7A: from=<newsletter@chinookcorp.com>, size=424, nrcpt=1 (queue active)
+postfix/local[20955]: 105851A7A: to=<steve@chinookcorp.com>, relay=local, delay=0.06, delays=0.03/0/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+postfix/qmgr[20871]: 105851A7A: removed
+
+# message from attack@insider.com to margaret@chinookcorp.com
+postfix/qmgr[20871]: 287EA1A7A: from=<attack@insider.com>, size=422, nrcpt=1 (queue active)
+postfix/local[20955]: 287EA1A7A: to=<margaret@chinookcorp.com>, relay=local, delay=0.06, delays=0.03/0/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+postfix/qmgr[20871]: 287EA1A7A: removed

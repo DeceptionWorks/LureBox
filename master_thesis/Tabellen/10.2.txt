@@ -1,0 +1,11 @@
+mongodb-enterprise-server 
+Beinhaltet den mongod Daemon und damit verbundene Konfigurationen und init-Skripte. Der mongod ist der Daemon für eine einzelne Datenbank.
+
+mongodb-enterprise-mongos
+Beinhaltet den mongos Daemon. Dieser kommt zum Einsatz, wenn ein MongoDB-Cluster verwendet wird.
+
+mongodb-enterprise-shell
+Beinhaltet die MongoDB Shell, den Client, mit dem auf Datenbanken zugegriffen werden kann.
+
+mongodb-enterprise-tools
+Beinhaltet viele MongoDB-Tools wie mongoimport bsondump, mongodump, mongoexport, mongofiles, mongooplog, mongoperf, mongorestore, mongostat und mongotop.

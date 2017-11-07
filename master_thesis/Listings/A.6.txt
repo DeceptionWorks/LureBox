@@ -1,0 +1,11 @@
+## installation of Kibana
+# update package repository and install Kibana
+apt-get update && apt-get install kibana
+# create a directory for storing the log files anlegen
+mkdir /var/log/kibana
+
+## change the config file /etc/kibana/kibana.yml
+# Kibana should listen on all available IP addresses 
+server.host: "0.0.0.0"
+# change the name of the Kibana server. The name is only used for representation. 
+server.name: "Lure Box Kibana Server"

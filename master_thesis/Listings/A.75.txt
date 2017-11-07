@@ -1,0 +1,8 @@
+# install the Swiss Army Knife for SMTP
+apt-get install swaks
+
+# send the mails
+echo "content" | swaks --to margaret@chinookcorp.com --from "newsletter@chinookcorp.com" --server 192.168.56.5
+echo "content" | swaks --to steve@chinookcorp.com --from "newsletter@chinookcorp.com" --server 192.168.56.5
+echo "content" | swaks --to margaret@chinookcorp.com --from "attack@insider.com" --server 192.168.56.5
+echo "content" | swaks --to steve@chinookcorp.com --from "attack@insider.com" --server 192.168.56.5

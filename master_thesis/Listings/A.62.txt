@@ -1,0 +1,7 @@
+## Enterprise-Only Options:
+auditLog:
+  destination: file
+  format: JSON
+  path: /var/lib/mongodb/auditLog.json
+  filter: '{ atype: "authCheck", "param.ns": { $in: ["fhstp.salary", "fhstp.restaurants"]}, "param.command": { $in: [ "find", "insert", "delete", "update", "findandmodify" ] } }'
+setParameter: { auditAuthorizationSuccess: true }
