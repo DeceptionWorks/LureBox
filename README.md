@@ -9,6 +9,10 @@ A program running on the box can be used to trigger an alarm when logs are recei
 
 ![LureBox Implementation](/images/implementation.png)
 
+## Authors
+* Christoph Malin (student) 
+* Dr. Simon Tjoa (Supervisor)
+
 
 ## Ausgangslage
 Bei einer Cyberattacke auf das Karrierenetzwerk LinkedIn im Jahr 2012 wurden mehr als 100 Millionen Konten gestohlen, wobei anfangs noch die Rede von 6,5 Millionen betroffenen BenutzerInnen war. Erst vier Jahre später, im Jahr 2016, fand man heraus, dass Daten in viel größerem Umfang entwendet worden waren. Auch bei der US-Geheimdienstbehörde NSA verging einige Zeit, bis festgestellt wurde, dass der Insider Edward Snowden zwischen 50.000 und 200.000 geheime Dokumente entwendet hatte. Diese beiden Vorfälle zeigen, dass große IT-Unternehmen wie LinkedIn, aber auch vermeintlich allmächtige Geheimdienstbehörden wie die National Security Agency keine vollständige Kontrolle darüber haben, wer wann unerlaubt auf gewisse Daten zugreift. Eine Studie der Firma Garner geht davon aus, dass Unternehmen im Jahr 2016 weltweit 86,1 Milliarden US-Dollar für Informationssicherheit ausgegeben haben. Während also viel Geld in teure Software und Beratung gesteckt wird, werden die sehr günstigen und effizienten Honeytokens nur selten verwendet. Diese sind digitale oder analoge Köder, deren Wert darin liegt, von jemandem unautorisiert verwendet zu werden. Jeglicher Zugriff darauf bzw. jede Verwendung eines dieser Köder wird überwacht und stellt eine verdächtige bzw. verbotene Aktivität dar. So könnte ein Honeytoken beispielsweise ein LinkedIn-Account sein oder ein vermeintlich geheimes Dokument der NSA. Greift jemand darauf zu, kann Alarm geschlagen werden.
