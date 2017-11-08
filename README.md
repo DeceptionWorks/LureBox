@@ -1,4 +1,9 @@
 ## Lure Box - Using Honeytokens for Detecting Cyberattacks
+
+## Authors
+* Christoph Malin (student at FH St. Pölten) 
+* Dr. Simon Tjoa (supervisor at FH St. Pölten)
+
 We’re living in times of rapid changes in which new opportunities and threats occur due to the increasing digitalization. According to estimates, companies in Germany have a yearly loss of 50 billion dollars due to digital industrial espionage. Therefore, an early detection of an attack is essential to take action by counter-measures and further investigations. For centuries lures and traps have been used to detect attackers or to expose spies. With the help of Honeytokens this principle can also be used in the cyberspace. 
 
 A Honeytoken is any kind of information which is placed as a lure in the physical or digital world. Any access to the Honeytoken is monitored and will raise a silent alarm.
@@ -8,10 +13,6 @@ This paper will present the Lure Box which was developed as part of this thesis.
 A program running on the box can be used to trigger an alarm when logs are received, which indicate an access to a Honeytoken. The Lure Box and the usage of Honeytokens shows that IT security of a company can be increased with the help of simple but effective tools.
 
 ![LureBox Implementation](/images/implementation.png)
-
-## Authors
-* Christoph Malin (student) 
-* Dr. Simon Tjoa (Supervisor)
 
 
 ## Ausgangslage
