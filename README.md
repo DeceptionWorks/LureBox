@@ -11,7 +11,7 @@ A program running on the box can be used to trigger an alarm when logs are recei
 
 
 ## Authors
-* Christoph Malin (student at FH St. Pölten) 
+* Christoph Malin (student at FH St. Pölten) - is151514@fhstp.ac.at
 * Dr. Simon Tjoa (supervisor at FH St. Pölten)
 
 ## Ausgangslage
